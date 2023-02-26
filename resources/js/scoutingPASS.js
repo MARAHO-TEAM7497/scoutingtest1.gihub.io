@@ -1461,9 +1461,8 @@ window.onload = function () {
       getSchedule(ec);
     }
     this.drawFields();
-    if (enableGoogleSheets) {
-      console.log("Enabling Google Sheets.");
-      setUpGoogleSheets();
+    console.log("Enabling Google Sheets.");
+    setUpGoogleSheets();
     }
   }
 };
